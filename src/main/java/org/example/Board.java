@@ -10,7 +10,7 @@ public class Board {
         for (int i=0; i<3; i++){
             for (int j=0; j<3;j++){
                 if (cells[i][j].color!=null){
-                    printManager.printColor(cells[i][j].form);
+                    printManager.printColor(cells[i][j].color,cells[i][j].form);
                 }
             }
         }
